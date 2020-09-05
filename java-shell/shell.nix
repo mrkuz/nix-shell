@@ -5,7 +5,7 @@
     [
       zlib
     ]);
-  runScript = "bash";
+  runScript = "fish";
   profile = ''
     export SDKMAN_DIR="/home/markus/opt/sdkman"
     source "$SDKMAN_DIR/bin/sdkman-init.sh"
